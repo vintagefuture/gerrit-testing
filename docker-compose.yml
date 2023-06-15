@@ -15,7 +15,9 @@ services:
       environment:
          - "CANONICAL_WEB_URL=http://localhost:8086"
 
+#      command: init
 volumes:
    git-volume:
    index-volume:
    cache-volume:
+
